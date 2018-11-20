@@ -1,6 +1,6 @@
 # ModularizationTool
 
-## 在GetNameModularization这个类里面写方法
+#### 在GetNameModularization这个类里面写方法
 
 -(void)getName;
 
