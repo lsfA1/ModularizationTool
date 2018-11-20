@@ -6,7 +6,7 @@
 
 在要调用的时候通过路径调用 
 
-# [ModularizationTool openURL:@"Router://GetNameModularization/getName" params:nil];
+#### [ModularizationTool openURL:@"Router://GetNameModularization/getName" params:nil];
 
 ***** 以下是截图
 
