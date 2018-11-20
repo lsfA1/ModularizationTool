@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "ModularizationTool.h"
+#import "GetNameModularization.h"
 
 @interface ViewController ()
 
@@ -16,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [ModularizationTool openURL:@"Router://GetNameModularization/getName" params:nil];
 }
 
 

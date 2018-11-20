@@ -15,6 +15,10 @@
 		717AE87B21A3B554009C9AC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE87A21A3B554009C9AC9 /* main.m */; };
 		717AE88521A3B555009C9AC9 /* ModularizationToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE88421A3B555009C9AC9 /* ModularizationToolTests.m */; };
 		717AE89021A3B555009C9AC9 /* ModularizationToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE88F21A3B555009C9AC9 /* ModularizationToolUITests.m */; };
+		717AE8A021A3B58B009C9AC9 /* ModularizationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE89E21A3B58B009C9AC9 /* ModularizationTool.m */; };
+		717AE8A321A3B5FB009C9AC9 /* GetNameModularization.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE8A221A3B5FB009C9AC9 /* GetNameModularization.m */; };
+		717AE8A721A3B80A009C9AC9 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 717AE8A521A3B80A009C9AC9 /* 01.png */; };
+		717AE8A821A3B80A009C9AC9 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 717AE8A621A3B80A009C9AC9 /* 02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		717AE88B21A3B555009C9AC9 /* ModularizationToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModularizationToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		717AE88F21A3B555009C9AC9 /* ModularizationToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModularizationToolUITests.m; sourceTree = "<group>"; };
 		717AE89121A3B555009C9AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		717AE89E21A3B58B009C9AC9 /* ModularizationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModularizationTool.m; sourceTree = "<group>"; };
+		717AE89F21A3B58B009C9AC9 /* ModularizationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModularizationTool.h; sourceTree = "<group>"; };
+		717AE8A121A3B5FB009C9AC9 /* GetNameModularization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetNameModularization.h; sourceTree = "<group>"; };
+		717AE8A221A3B5FB009C9AC9 /* GetNameModularization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetNameModularization.m; sourceTree = "<group>"; };
+		717AE8A521A3B80A009C9AC9 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		717AE8A621A3B80A009C9AC9 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +111,14 @@
 		717AE86A21A3B552009C9AC9 /* ModularizationTool */ = {
 			isa = PBXGroup;
 			children = (
+				717AE8A421A3B80A009C9AC9 /* img */,
+				717AE89D21A3B58B009C9AC9 /* Modularization */,
 				717AE86B21A3B552009C9AC9 /* AppDelegate.h */,
 				717AE86C21A3B552009C9AC9 /* AppDelegate.m */,
 				717AE86E21A3B552009C9AC9 /* ViewController.h */,
 				717AE86F21A3B552009C9AC9 /* ViewController.m */,
+				717AE8A121A3B5FB009C9AC9 /* GetNameModularization.h */,
+				717AE8A221A3B5FB009C9AC9 /* GetNameModularization.m */,
 				717AE87121A3B552009C9AC9 /* Main.storyboard */,
 				717AE87421A3B554009C9AC9 /* Assets.xcassets */,
 				717AE87621A3B554009C9AC9 /* LaunchScreen.storyboard */,
@@ -130,6 +144,24 @@
 				717AE89121A3B555009C9AC9 /* Info.plist */,
 			);
 			path = ModularizationToolUITests;
+			sourceTree = "<group>";
+		};
+		717AE89D21A3B58B009C9AC9 /* Modularization */ = {
+			isa = PBXGroup;
+			children = (
+				717AE89F21A3B58B009C9AC9 /* ModularizationTool.h */,
+				717AE89E21A3B58B009C9AC9 /* ModularizationTool.m */,
+			);
+			path = Modularization;
+			sourceTree = "<group>";
+		};
+		717AE8A421A3B80A009C9AC9 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				717AE8A521A3B80A009C9AC9 /* 01.png */,
+				717AE8A621A3B80A009C9AC9 /* 02.png */,
+			);
+			path = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +267,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				717AE8A821A3B80A009C9AC9 /* 02.png in Resources */,
 				717AE87821A3B554009C9AC9 /* LaunchScreen.storyboard in Resources */,
 				717AE87521A3B554009C9AC9 /* Assets.xcassets in Resources */,
+				717AE8A721A3B80A009C9AC9 /* 01.png in Resources */,
 				717AE87321A3B552009C9AC9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +299,8 @@
 				717AE87021A3B552009C9AC9 /* ViewController.m in Sources */,
 				717AE87B21A3B554009C9AC9 /* main.m in Sources */,
 				717AE86D21A3B552009C9AC9 /* AppDelegate.m in Sources */,
+				717AE8A021A3B58B009C9AC9 /* ModularizationTool.m in Sources */,
+				717AE8A321A3B5FB009C9AC9 /* GetNameModularization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
